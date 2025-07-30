@@ -1,0 +1,5 @@
+package com.redisson.test;
+
+public class RedissonConfig {
+
+}
