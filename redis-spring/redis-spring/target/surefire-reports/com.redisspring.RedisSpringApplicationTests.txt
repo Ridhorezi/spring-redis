@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.redisspring.RedisSpringApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 279.1 s -- in com.redisspring.RedisSpringApplicationTests

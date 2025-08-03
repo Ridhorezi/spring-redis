@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="0" failures="0" name="com.redisson.test.Lec04BucketAsMapTest" time="0" errors="0" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\PROJECT-DOCKER\redis\redisson\redisson-playground"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\PROJECT-DOCKER\redis\redisson\redisson-playground"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="D:\PROJECT-DOCKER\redis\redisson\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7829328870954091123.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/ProgramData/chocolatey/lib/SpringToolSuite/tools/sts-4.17.2.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136/jre/bin/server;C:/ProgramData/chocolatey/lib/SpringToolSuite/tools/sts-4.17.2.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136/jre/bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\ASUS\product\21c\dbhomeXE\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PhpStorm 2022.2.3\bin;C:\Users\ASUS\AppData\Roaming\npm;C:\Users\ASUS\AppData\Roaming\Composer\vendor\bin;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk-19\bin;C:\src\flutter\bin\cache\dart-sdk\bin;C:\Users\ASUS\AppData\Local\Pub\Cache\bin;%JRE_HOME%\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python311;C:\composer;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tool;C:\Program Files\nodejs\;C:\Program Files\Java\maven\apache-maven-3.8.6\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Windows\System32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\ASUS\product\21c\dbhomeXE\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PhpStorm 2022.2.3\bin;C:\Users\ASUS\AppData\Roaming\npm;C:\Users\ASUS\AppData\Roaming\Composer\vendor\bin;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk-19\bin;C:\src\flutter\bin\cache\dart-sdk\bin;C:\Users\ASUS\AppData\Local\Pub\Cache\bin;%JRE_HOME%\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python311;C:\composer;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tool;C:\Program Files\\Elastic\Beats\8.17.0\metricbeat;C:\Users\ASUS\.lmstudio\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Windows\System32;C:\Users\ASUS\.dotnet\tools;C:\Users\ASUS\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\ProgramData\chocolatey\bin;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="user.name" value="Ridho"/>
+    <property name="java.class.path" value="C:\ProgramData\chocolatey\lib\springtoolsuite\tools\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install -Dstyle.color=always"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\PROJECT-DOCKER\redis\redisson\redisson-playground\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="m2e.build.project.data.socket.port" value="52779"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+</testsuite>
