@@ -57,6 +57,6 @@ Using **JMeter**, I benchmarked some reactive endpoints and observed up to **80%
 ## 📦 Getting Started
 
 ```bash
-git clone https://github.com/your-username/reactive-redis-webflux-playground.git
+git clone https://github.com/Ridhorezi/spring-redis.git
 cd reactive-redis-webflux-playground
 mvn clean install
